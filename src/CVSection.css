@@ -1,0 +1,43 @@
+.cv-showcase {
+    height: 150vh;
+    margin-top: -50px;
+    text-align: center;
+  }
+  
+  .cv-showcase .cv-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cv-showcase h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cv-showcase p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .cv-preview {
+    margin-bottom: 20px;
+  }
+  
+  .cv-preview iframe {
+    border: none;
+  }
+  
+  
+  @media (max-width: 1000px){
+    .cv-showcase p {
+      font-size: 0.7rem;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .cv-preview iframe{
+      width: 80%;
+      height: 300px;
+    }
+  }

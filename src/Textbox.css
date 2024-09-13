@@ -1,0 +1,156 @@
+/* General Styles */
+.textContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 150px;
+  padding: 20px; /* Add padding to prevent content from touching the edges */
+  box-sizing: border-box;
+}
+
+.boxText {
+  width: 60vw;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: flex-start;
+}
+
+.boxText > p {
+  width: 30vw;
+}
+
+.boxText > h1 {
+  color: white;
+  line-height: 40px;
+  font-size: 45px;
+}
+
+.boxText > p {
+  color: white;
+  line-height: 20px;
+}
+
+.img-box {
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+}
+
+.img-box img {
+  max-width: 100%; /* Responsive image scaling */
+  width: 500px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Section Styles */
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(169, 169, 169);
+}
+
+section > h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* TextBox Section Styles */
+.textBox-full {
+  margin-top: 100px;
+  display: flex;
+  gap: 6vw;
+}
+
+.text {
+  width: 400px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.textBoxBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  font-family: 'ubuntu';
+}
+
+span {
+  cursor: pointer;
+  color: #705ADD;
+  transition: all 1s ease;
+}
+
+span:hover {
+  color: wheat;
+}
+
+.image12 {
+  width: 500px;
+  height: auto;
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Move up by 20px */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 850px) {
+  .textContainer{
+    height: 100%;
+    width: 100vh;
+   margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    
+  }
+  
+  .boxText{
+   
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 0;
+    color: wheat;
+    width: 80vw;
+    margin: 0;
+  }
+  
+  .boxText>h1{
+    font-size: 2rem;
+  }
+
+  .boxText>p{
+    font-size: 0.7rem;
+    width: 90%;
+  }
+
+  .imd-box>img{
+    width: 10px;
+    height: auto;
+  }
+  
+}

@@ -1,0 +1,93 @@
+.Socials-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards {
+    width: 70%;
+    padding-inline: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .HEADABT{
+    margin: 40px 0 80px;
+    align-self: center;
+  }
+
+  .cards{
+
+    align-items: center;
+  }
+
+  .card {
+    min-width: 200px;
+    height: 400px;
+    flex: 1 1 250px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+.card>h2{
+    color: white;
+}
+  
+  .card-content {
+    position: absolute;
+    inset: 1px;
+    background-color: #131315;
+    border-radius: inherit;
+  }
+  
+
+
+  
+ 
+  
+  .card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .card-content > i {
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .card-content > p {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .card-content > a {
+    width: 90%;
+    padding-block: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+  }
+  
+  .card-content > a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .card-content>h2{
+    color: wheat;
+  }
+  
