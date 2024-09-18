@@ -25,7 +25,7 @@ function Footer(){
             <h3>Projects</h3>
             <ul>
               <li><a href="https://pr4shxnt.github.io/BurgerHouse-Project/">Burger House</a></li>
-              <li><a href="#">UDAEH</a></li>
+              <li><a href="https://pr4shxnt.github.io/UDAEH/">UDAEH</a></li>
               <li><a href="#">Portfolio</a></li>
             </ul>
           </div>
