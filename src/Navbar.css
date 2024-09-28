@@ -38,6 +38,7 @@
 }
 
 .menu-links {
+  width: 70vh;
   display: flex;
   gap: 24px;
   border-right: 1px solid #999999;
@@ -131,6 +132,33 @@
   font-size: 32px;
   color: white;
   cursor: pointer;
+}
+
+.dropdown-parent{
+  position: absolute;
+}
+
+.dropdown-menu{
+  position: relative;
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  background-color: hsl(0, 0%, 20%);;
+  line-height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.dropdown-menu>li{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dropdown-menu>li:hover{
+  background-color: #705ADD;
+}
+.dropdown-parent:hover > .dropdown-menu {
+  display: flex;
 }
 
 /* Responsive styles */

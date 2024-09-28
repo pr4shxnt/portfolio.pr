@@ -21,6 +21,18 @@ const Navbar = () => {
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#MoreAboutMe">More</a></li>
             <li><a href="#Socials-container">Socials</a></li>
+            <li className='dropdown-parent'><a href="">Projects</a>
+            <ul className='dropdown-menu'>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="https://pr4shxnt.github.io/BurgerHouse-Project/" target='_blank'>Burger House</a></li>
+              <li><a href="https://pr4shxnt.github.io/UDAEH" target='_blank'>Consultancy Web</a></li>
+
+
+            </ul>
+            
+            
+            </li>
+            
           </ul>
         </div>
         <a href="#cv-content" className="log-in">Resume</a>

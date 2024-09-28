@@ -96,8 +96,7 @@ function Aboutme(){
 
 
             I’m deeply passionate about coding and technology, and this enthusiasm has been a driving force throughout
-            my journey. From the moment I first encountered programming, I was captivated by the power of code to
-            create, solve problems, and bring innovative ideas to life.</p>
+            my journey. </p>
 
 
         </div>
