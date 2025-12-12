@@ -11,14 +11,15 @@ import Footer from './Footer';
 
 
 function App(){
-    return (<>
-    <Navbar />
-    <Textbox />
-    <Aboutme />
-    <MoreAboutMe/>
-    <Socials/>
-    <CVSection/>
-    <Footer/>
+    return (
+    <>
+       <Navbar />
+       <Textbox />
+       <Aboutme />
+       <MoreAboutMe/>
+       <Socials/>
+       <CVSection/>
+       <Footer/>
     </>
     )
 }
